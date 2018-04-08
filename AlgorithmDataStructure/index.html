@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="src/v2/Algorithm.v2.js"></script>
+<script>
+    window.onload = function () {
+        var a = new sortArray([5, 8, 6, 9, 3, 4, 1, 2]);
+        console.log(a);
+        console.log(a.value);
+        var b = new searchArray(5, a.value);
+        console.log(b);
+        console.log(b.sequentialSearch());
+        console.log(b.binarySearch());
+        console.log(a.quickSort());
+    }
+</script>
+</body>
+</html>
